@@ -1,0 +1,82 @@
+body{
+    
+    height:  auto;
+    width: auto;
+    background:url(https://i.pinimg.com/originals/21/c3/c3/21c3c3f391e3d951e8c8ce1bbc0e4a72.jpg)
+    no-repeat center center fixed;
+    background-size :cover;
+    overflow-x: hidden;
+}
+
+.container
+{
+    width:600px;
+    height :250px;
+    
+    
+    
+    background: rgba(255,255,255,0.4);
+    transform: translate (-50%,-50%);
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    border : 2px double black  ;
+    border-radius: 7px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+
+    margin: auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.container-title{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 2.5rem;
+    color:rgb(30, 44, 44);
+    text-decoration: 1px overline gray;
+    transition: 0.3s;
+}
+.container-title:hover{
+    font-size: 2.6rem;
+}
+.content{
+    margin-top:50px;
+}
+input{
+    height:4vh;
+    width: 35%;
+    padding-left: 10px;
+    border-radius: 5px;
+    background: none;
+    outline: none;
+    font-size: 1.1rem;
+}
+#input{
+    margin-left:4rem;
+}
+#input:hover,#result:hover{
+    border-color: aqua;
+}
+span{
+    font-size: 1.5rem;
+    margin:0.3rem;
+}
+
+#inputType,#resultType{
+    height:4vh;
+    width:10vw;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: aquamarine;
+    border: 3px double gray;
+    border-radius: 5px;
+    background: none;
+}
+
+#inputType{
+    margin: 10px 17%;
+}
