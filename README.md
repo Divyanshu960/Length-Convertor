@@ -1,2 +1,2 @@
 # Length-Convertor
-An HTML mini project for conversion of length
+An HTML/CSS project for conversion of length
