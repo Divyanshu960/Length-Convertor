@@ -4,7 +4,7 @@ var inputType = document.getElementById('inputType');
 var resultType= document.getElementById('resultType');
 var inputTypeValue,resultTypeValue;
 
-//listeners
+//listeners 
 
 input.addEventListener("keyup", myResult);
 inputType.addEventListener("change", myResult);
