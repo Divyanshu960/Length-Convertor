@@ -11,7 +11,7 @@ inputType.addEventListener("change", myResult);
 resultType.addEventListener("change", myResult);
 
 //input 
-
+  
 inputTypeValue = inputType.value;
 resultTypeValue = resultType.value;
 
