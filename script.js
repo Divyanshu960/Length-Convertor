@@ -10,7 +10,7 @@ input.addEventListener("keyup", myResult);
 inputType.addEventListener("change", myResult);
 resultType.addEventListener("change", myResult);
 
-//input
+//input 
 
 inputTypeValue = inputType.value;
 resultTypeValue = resultType.value;
